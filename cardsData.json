@@ -1,0 +1,116 @@
+[
+  {
+    "namn": "Ålandsbanken Premium",
+    "bild": "https://kreditkortguiden.se/wp-content/uploads/alandsbanken-premium.png",
+    "recension": "4,5 av 5 stjärnor",
+    "årsavgift": "1 500 kr",
+    "maximal kredit": "200 000 kr",
+    "ränta per år": "9,95%",
+    "fördelar": [
+      "2% bonus på alla köp",
+      "Reseförsäkring med avbeställningsskydd",
+      "50% rabatt på tillgång till över 1 000 flygplatslounger runt om i världen"
+    ],
+    "perfekt för": ["Bonus", "Resor", "Lyx"],
+    "inte perfekt för": ["Bränsle", "Mat"],
+    "ytterligare information": {
+      "åldersgräns": "18 år",
+      "inkomstkrav": "360 000 kr",
+      "anställning": "Alla",
+      "fakturaavgift": "0 kr",
+      "valutapåslag": "1,5%",
+      "uttagsavgift": "2%, minst 40 kr",
+      "bonus": "2%"
+    },
+    "ränteexempel": "Ålandsbanken Premium har 9,95% i nominell ränta och 10,34% i effektiv ränta beräknat på 20 000 kr utnyttjad kredit över 12 månader i form av ett annuitetslån som betalas via e-faktura. Månadskostnaden blir 1 742 kr och totala kostnaden 20 904 kr.",
+    "länkar": {
+      "recension": "https://kreditkortguiden.se/kort/alandsbanken-premium/",
+      "ansökan": "https://kreditkortguiden.se/go/alandsbanken-premium-module/"
+    }
+  },
+  {
+    "namn": "Bank Norwegian Kreditkort",
+    "bild": "https://kreditkortguiden.se/wp-content/uploads/bank-norwegian-kreditkort.png",
+    "recension": "4,5 av 5 stjärnor",
+    "årsavgift": "0 kr",
+    "maximal kredit": "100 000 kr",
+    "ränta per år": "21,95%",
+    "fördelar": [
+      "Upp till 20% bonus på alla köp",
+      "Inklusive reseförsäkring med avbeställningsskydd"
+    ],
+    "perfekt för": ["Bonus", "Resor"],
+    "inte perfekt för": ["Shopping", "Bränsle", "Mat", "Lyx"],
+    "ytterligare information": {
+      "åldersgräns": "23 år",
+      "inkomstkrav": "200 000 kr",
+      "anställning": "Alla",
+      "fakturaavgift": "45 kr",
+      "valutapåslag": "1,75%",
+      "uttagsavgift": "0 kr",
+      "bonus": "Upp till 20%"
+    },
+    "ränteexempel": "Bank Norwegian Kreditkort har 21,95% i nominell ränta och 23,68% i effektiv ränta beräknat på 20 000 kr utnyttjad kredit över 12 månader i form av ett annuitetslån som betalas via e-faktura. Månadskostnaden blir 1 894 kr och totala kostnaden 22 729 kr.",
+    "länkar": {
+      "recension": "https://kreditkortguiden.se/kort/bank-norwegian-kreditkort/",
+      "ansökan": "https://kreditkortguiden.se/go/bank-norwegian-kreditkort-module/"
+    }
+  },
+  {
+    "namn": "Collector Bank Easycard",
+    "bild": "https://kreditkortguiden.se/wp-content/uploads/collector-bank-easycard.png",
+    "recension": "4,5 av 5 stjärnor",
+    "årsavgift": "295 kr",
+    "maximal kredit": "100 000 kr",
+    "ränta per år": "15,95%",
+    "fördelar": [
+      "Upp till 3,3% bonus på alla köp",
+      "Reseförsäkring med avbeställningsskydd"
+    ],
+    "perfekt för": ["Bonus", "Shopping", "Resor"],
+    "inte perfekt för": ["Bränsle", "Mat", "Lyx"],
+    "ytterligare information": {
+      "åldersgräns": "18 år",
+      "inkomstkrav": "120 000 kr",
+      "anställning": "Alla",
+      "fakturaavgift": "29 kr (0 kr med e-faktura)",
+      "valutapåslag": "1,75%",
+      "uttagsavgift": "3%, minst 35 kr",
+      "bonus": "Upp till 3,3%"
+    },
+    "ränteexempel": "Collector Bank Easycard har 15,95% i nominell ränta och 17,17% i effektiv ränta beräknat på 20 000 kr utnyttjad kredit över 12 månader i form av ett annuitetslån som betalas via e-faktura. Månadskostnaden blir 1 814 kr och totala kostnaden 21 770 kr.",
+    "länkar": {
+      "recension": "https://kreditkortguiden.se/kort/collector-bank-easycard/",
+      "ansökan": "https://kreditkortguiden.se/go/collector-bank-easycard-module/"
+    }
+  },
+  {
+    "namn": "Coop Mer Mastercard",
+    "bild": "https://kreditkortguiden.se/wp-content/uploads/Coop-Mastercard.png",
+    "recension": "4,5 av 5 stjärnor",
+    "årsavgift": "295 kr (0 kr år 1)",
+    "maximal kredit": "150 000 kr",
+    "ränta per år": "15,95%",
+    "fördelar": [
+      "Upp till 5,5% bonus hos Coop",
+      "05% bonus på andra köp",
+      "Heltäckande gratisförsäkringar"
+    ],
+    "perfekt för": ["Bonus", "Shopping", "Resor", "Mat"],
+    "inte perfekt för": ["Bränsle", "Lyx"],
+    "ytterligare information": {
+      "åldersgräns": "20 år",
+      "inkomstkrav": "125 000 kr",
+      "anställning": "Inte arbetslös",
+      "fakturaavgift": "29 kr (0 kr med e-faktura)",
+      "valutapåslag": "1,75%",
+      "uttagsavgift": "1,5%, minst 35 kr",
+      "bonus": "0,5-5,5%"
+    },
+    "ränteexempel": "Coop Mer Mastercard har 15,95% i nominell ränta och 17,17% i effektiv ränta beräknat på 20 000 kr utnyttjad kredit över 12 månader i form av ett annuitetslån som betalas via e-faktura. Månadskostnaden blir 1 814 kr och totala kostnaden 21 770 kr.",
+    "länkar": {
+      "recension": "https://kreditkortguiden.se/kort/coop-mastercard/",
+      "ansökan": "https://kreditkortguiden.se/go/coop-mastercard-module/"
+    }
+  }
+]
