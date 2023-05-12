@@ -5,8 +5,8 @@ export default function Widget() {
   const router = useRouter();
   let { widgetId: widget } = router.query;
 
-  debugger
-  if (widget) {
+  
+  
     switch (widget) {
       case 'creditcards':
         return <div>widget found</div>;
@@ -14,6 +14,6 @@ export default function Widget() {
       default:
         return <div>Widget not found</div>;
     }
-  }
+  
   
 }
