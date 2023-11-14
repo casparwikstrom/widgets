@@ -10,6 +10,20 @@ body {
   align-content: space-around;
 }
 
+a {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 30px;
+  text-decoration: none !important;
+}
+
+.link:hover {
+  color: red !important;
+  font-size: 50px;
+
+}
+
 body,
 .example h1,
 .example p,
