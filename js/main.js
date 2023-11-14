@@ -1,14 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   const urlParams = new URLSearchParams(window.location.search);
-  const url = urlParams.get('url');
-  const text = urlParams.get('text');
-  // Använd parametrarna i din kod
-  console.log('Parameter 1:', url);
-  console.log('Parameter 2:', text);
+  const url = urlParams.get('url') ? urlParams.get('url') : 'https://crmproductreview.com/';
+  const text = urlParams.get('text') ? urlParams.get('text') : 'Google';
+  const hours = urlParams.get('hours') ? urlParams.get('hours') : 24;
 
-  // Unix timestamp (in seconds) to count down to
-  var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
+  // Use sessionStorage instead of localStorage
+  const savedTwoDaysFromNow = sessionStorage.getItem('twoDaysFromNow');
+  const timeInMilliseconds = hours * 60 * 60 * 1000;
+
+  // Check if the URL and text parameters are not null
+  if (!url || !text) {
+    console.error('URL or text parameter is missing.');
+    return; // Exit the function if URL or text is missing
+  }
+
+  // If a saved value exists, use it; otherwise, calculate a new value
+  let twoDaysFromNow;
+  if (savedTwoDaysFromNow) {
+    twoDaysFromNow = parseInt(savedTwoDaysFromNow);
+  } else {
+    const currentTime = new Date().getTime();
+    twoDaysFromNow = (currentTime / 1000) + hours * 60 * 60; // hours to seconds
+  }
+
+  // Save the calculated or retrieved value back to sessionStorage
+  sessionStorage.setItem('twoDaysFromNow', twoDaysFromNow);
 
   // Set up FlipDown
   var flipdown = new FlipDown(twoDaysFromNow)
@@ -21,30 +38,27 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('The countdown has ended!');
     });
 
-  // Toggle theme
-  // var interval = setInterval(() => {
-  //   let body = document.body;
-  //   body.classList.toggle('light-theme');
-  //   body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-  //   body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-  // }, 5000);
-
+  // Find the flipdown element
   var flipdownElement = document.getElementById('link');
+
+  if (!flipdownElement) {
+    console.error('Flipdown element not found.');
+    return; // Exit the function if the flipdown element is not found
+  }
 
   // Create a new link element
   var link = document.createElement('a');
 
-  link.innerHTML = `
-    <a href="${url} target="_blank" id="${text}">test</a>
-  `;
-  // open link in new window
+  link.innerHTML = `<a href="${url}" target="_blank" id="text-link">${text}</a>`;
 
   // Append the link to the 'flipdown' element
   flipdownElement.appendChild(link);
+
   // Show version number
   var ver = document.getElementById('ver');
-  
-  ver.innerHTML = flipdown.version;
+  if (ver) {
+    ver.innerHTML = flipdown.version;
+  } else {
+    console.warn('Version element not found.');
+  }
 });
-
-
