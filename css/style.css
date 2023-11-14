@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 
-body {
+.flip-body {
   margin: 0px;
   height: 100%;
   display: flex;
@@ -13,7 +13,7 @@ body {
 a {
   display: flex;
   justify-content: center;
-  padding: 0.5rem;
+  
   font-size: 30px;
   text-decoration: none !important;
 }
@@ -24,31 +24,31 @@ a {
 
 }
 
-body,
+.flip-body,
 .example h1,
 .example p,
 .example .button {
   transition: all .2s ease-in-out;
 }
 
-body.light-theme {
+.flip-body.light-theme {
   background-color: #151515;
 }
 
-body.light-theme .example h1 {
+.flip-body.light-theme .example h1 {
   color: #FFFFFF;
 }
 
-body.light-theme .example p {
+.flip-body.light-theme .example p {
   color: #FFFFFF;
 }
 
-body.light-theme .buttons .button {
+.flip-body.light-theme .buttons .button {
   color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
-body.light-theme .buttons .button:hover {
+.flip-body.light-theme .buttons .button:hover {
   color: #151515;
   background-color: #FFFFFF;
 }
@@ -56,7 +56,7 @@ body.light-theme .buttons .button:hover {
 .example {
   font-family: 'Roboto', sans-serif;
   width: 550px;
-  height: 378px;
+  height: 100%;
   margin: auto;
   padding: 1px;
   box-sizing: border-box;
