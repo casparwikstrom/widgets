@@ -47,12 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Create a new link element
-  var link = document.createElement('a');
+  // var link = document.createElement('a');
 
-  link.innerHTML = `<a href="${url}" target="_blank" id="text-link">${text}</a>`;
+  flipdownElement.innerHTML = `<a href="${url}" target="_blank" id="text-link">${text}</a>`;
 
   // Append the link to the 'flipdown' element
-  flipdownElement.appendChild(link);
+  // flipdownElement.appendChild(link);
 
   // Show version number
   var ver = document.getElementById('ver');

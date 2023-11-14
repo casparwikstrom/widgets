@@ -126,7 +126,7 @@ a {
 @media(max-width: 550px) {
   .example {
     width: 100%;
-    height: 362px;
+    height: 100%;
   }
 
   .example h1 {
